@@ -1,0 +1,95 @@
+:root{
+    --Main-color:#5f87c4;
+    --backgroubd-color:#000000;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroubd-color);
+}
+.navBrand{
+  font-family: 'Kalam', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+.bright{
+  color: white;
+  font-weight: bold;
+
+
+}
+
+.mt-10{
+margin: 10rem 4rem;
+}
+
+
+.card:hover {
+animation: hang 1s linear;
+}
+
+
+.row div{
+  margin: 2rem 1rem;
+}
+#contact a{
+  color: white;
+}
+
+
+
+
+/* animations on homepage and card */
+#spin {
+    color:var(--Main-color);
+  }
+  #spin:after {
+    content:"";
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% {
+        content: "Developer";
+    }
+
+    50% {
+        content: "Designer";
+    }
+    75%{
+        content: "Creater";
+    }
+
+  }
+
+@keyframes hang {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+  75%{
+    transform: rotate(-15deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+
+}
+
+
+
+@media screen and (max-width:600px) {
+  #about img{
+    height: 200px;
+  }
+}
