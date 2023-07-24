@@ -94,7 +94,7 @@ animation: hang 1s linear;
     height: 200px;
   }
   #start img{
-    visibility: hidden;
+    display:none;
   }
 }
 @media screen and (max-width:300px) {
@@ -102,6 +102,6 @@ animation: hang 1s linear;
     height: 100px;
   }
   #start img{
-    visibility: hidden;
+    display:none;
   }
 }
