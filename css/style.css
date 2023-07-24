@@ -7,6 +7,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: var(--backgroubd-color);
+  text-align: center;
 }
 .navBrand{
   font-family: 'Kalam', cursive;
@@ -91,5 +92,16 @@ animation: hang 1s linear;
 @media screen and (max-width:600px) {
   #about img{
     height: 200px;
+  }
+  #start img{
+    visibility: hidden;
+  }
+}
+@media screen and (max-width:300px) {
+  #about img{
+    height: 100px;
+  }
+  #start img{
+    visibility: hidden;
   }
 }
