@@ -93,15 +93,19 @@ animation: hang 1s linear;
   #about img{
     height: 200px;
   }
-  #start img{
-    display:none;
+  .navBrand{
+    font-size: 1.5rem;
   }
+  
 }
 @media screen and (max-width:300px) {
   #about img{
     height: 100px;
   }
-  #start img{
-    display:none;
+  .navBrand{
+    font-size: 16px;
+  }
+  .nav-item{
+    font-size: 14px;
   }
 }
