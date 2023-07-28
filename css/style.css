@@ -64,7 +64,7 @@ animation: hang 1s linear;
     50% {
         content: "Designer";
     }
-    75%{
+    100%{
         content: "Creater";
     }
 
